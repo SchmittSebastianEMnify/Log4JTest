@@ -9,6 +9,7 @@ to check if the exploid would work run wireshark and filter for `ip.addr==127.0.
 
 | Dependency                                                                                     | Vulnerable | Notes |
 |------------------------------------------------------------------------------------------------|:----------:|-------|
+| org.apache.logging.log4j:log4j-api:jar:2.15.0 & org.apache.logging.log4j:log4j-core:jar:2.15.0 | NO         |       |
 | org.apache.logging.log4j:log4j-api:jar:2.14.1 & org.apache.logging.log4j:log4j-core:jar:2.14.1 | YES        |       |
 | org.apache.logging.log4j:log4j-api:jar:2.0 & org.apache.logging.log4j:log4j-core:jar:2.0       | YES        |       |
 | log4j:log4j:jar:1.2.17                                                                         | NO         |       |
